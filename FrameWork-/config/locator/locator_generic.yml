@@ -1,0 +1,89 @@
+
+#locators using id
+############################################################
+id:
+  RS.FEEDBACK: 'fsrInvite'
+  SEARCH_BAR: 'searchBarTextInput'
+  GETBASKET_AMNT: 'js-basketAmt'
+  
+  GETCOLLECTIONCENTER: 'tab1'
+ 
+ 
+#locators using name
+############################################################
+name:
+ 
+
+ 
+ #locators using css
+############################################################
+css:
+ 
+ 
+ 
+ #locators using xpath
+############################################################
+xpath:
+ 
+  Add.icon: /html/body/div[1]/div[2]/div[2]/div/div[2]/p
+  CONSENTCOOKIE: '//*[@id="home"]/div[4]/div/div/div/div[3]/div/button[2]'
+  DATEANDTIME: '//*[@id="weather-wrapper"]/strong'
+  SPORTSMENU: '/html/body/div[3]/div[2]/div[2]/ul/li[4]'
+  FOOTBALL: '//*[@id="page-container"]/div[2]/div[2]/div/ul[1]/li[1]/a'
+  FIRSTARTICLE: '//*[@id="content"]/div[2]/div[1]/div/h2'
+  OPENGALARY:  '//*[@id="js-article-text"]/div[3]/div[1]'
+  clicktomax: '//*[@class="vjs-fullscreen-control vjs-control vjs-button"]'
+  STANDINGTABLE: '//*[@class="competitionTable_2Shs1 displayMode-extraSmall_3otUd"]/table/tbody/tr/td[4]'
+  GETPOINTS: '//*[@class="competitionTable_2Shs1 displayMode-extraSmall_3otUd"]/table/tbody/tr/td[5]'
+  CLICKNEXT: '//*[@class="nextButton-3SUcS"]'
+  CLICKPREVIOUS: '//*[@class="previousButton-1MRE_"]'
+  CLICKCLOSE: '//*[@class="closeButton-3n9vO"]'
+  CLICKONSHARE: '//*[@class="linkItem-2NXrW shareIcon-8A2dW"]'
+  CLICKONSHARE: '//*[@class="linkItem-2NXrW shareIcon-8A2dW"]'
+  SPORTSMENUCLICKED: //*[@id="page-container"]/div[2]/ul/li[4]/span/a
+  SUBMENU: //*[@id="page-container"]/div[2]/div[2]/div
+  SELECTMATERIAL: //*[@id="terminalNodeFilter-accordion-title-2"]
+  LASTNAME: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[1]/div[4]/div/input
+  RS.FIRSTNAMENEW: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[1]/div[3]/div/input
+  SELECT_CATEGORY: //*[@id="sidebar"]/section/div[1]/div/ul/li
+  SELECT_BRAND: //*[@id="terminalNodeFilter-accordion-title-0"]
+  GETCOLOUR: //*[@id="terminalNodeFilter-accordion-title-3"]
+  GETTYPE: //*[@id="terminalNodeFilter-accordion-title-5"]
+  SELECT_FIRSTBRAND: //*[@id="terminalNodeFilter-accordion-body-0"]/div/div/div/div[1]/div[2]/div/div/div/div[1]
+  APPLY_FILTERS: //*[@id="__next"]/div/div/div[3]/div[1]/div[2]/div[1]/div/button
+  DISPLAYCOUNT: //*[@id="terminalNodeFilterHeader"]/div[2]
+  COLUMN_SIZE: //*[@id="__next"]/div/div/div[3]/div[2]/div[3]/div[2]/div/table/tbody/tr/td[1]
+  GETBRAND: //*[@id="terminalNodeFilter-accordion-body-0"]/div/div/div/div[1]/div[2]/div/div/div/div
+  GETSNRVALUE: //*[@id="terminalNodeFilter-accordion-body-0"]/div/div/div/div[1]/div[2]/div/div/div/div
+  GETMATERIALVALUE: //*[@id="terminalNodeFilter-accordion-body-2"]/div/div/div/div[1]/div[2]/div/div/div/div
+  FILTERCLOSE: //*[@id="terminalNodeFilterContainer"]/div[1]/div[2]/div[1]/div[2]/div/span
+  GETCLEAR: //*[@id="terminalNodeFilterContainer"]/div[1]/div[2]/div[1]/div[1]/span[2]/span
+  GETCLEARALL: //*[@id="terminalNodeFilterContainer"]/div[1]/div[3]/span
+  GETTYPEVALUE: //*[@id="terminalNodeFilter-accordion-body-5"]/div/div/div/div[1]/div[2]/div/div/div/div
+  GETCOLOURVALUE: //*[@id="terminalNodeFilter-accordion-body-3"]/div/div/div/div[1]/div[2]/div/div/div/div 
+  APPLYFILTER: //*[@id="__next"]/div/div/div[3]/div[1]/div[2]/div[1]/div/button
+  EMAIL: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[1]/div[5]/div/input
+  COMPANYNAME: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[2]/div[2]/div/input
+  STREETNAME: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[2]/div[4]/div/input
+  CITY: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[2]/div[6]/div/input
+  POSTCODE: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[2]/div[8]/input
+  RS.DELIVERY: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/input
+  FEEDBACKCLOSE: //*[@id="fsrInvite"]/section[3]/button[2]
+  SELECTSNR: //*[@id="terminalNodeFilter-accordion-title-3"]
+  RS.TITLE: //*[@id="page-wrapper"]/div[2]/div[2]/form/div[2]/div/div[1]/div[2]/div[1]/select
+  GETPRODUCT_BASKET: //*[@id="basket"]/div[2]/div[2]/main/div/div/div[2]/div[2]/div[1]/div[2]/div[1]
+  GET_GUESTCHECKOUT: //*[@id="basketSummary"]/div/div[2]/button[1]
+  GETRETURNCUSTOMER: //*[@id="basketSummary"]/div/div[2]/button[2]
+  RS.CHECKOUTSECURELY: //*[@id="basketSummary"]/div/button
+  GETDELIVERYCENTER: //*[@id="deliveryAndCollection"]/div/div[2]/div/div/ul/li[1]/label/span
+  SEARCH_ICON: //*[@id="searchFrom"]/div[4]/div[1]/button
+  ADD_BUTTON: //*[@id="search-results"]/div[3]/div/div[2]/div[4]/div[3]/div/div[1]/div/div[2]/form/button
+  GET_BASKET: //*[@id="pageHeader"]/div/div[3]
+  RS.GETUSERNAME: //*[@id="username"]
+  RS.GETPASSWORD: //*[@id="password"]
+  RS.GETCONTINUEPAYMENT: //*[@id="checkoutSecurelyBtn"]
+  RS.GETLOGIN: //*[@id="__next"]/div/div[2]/form/button
+  RS.GETPOSTCODERETURN: //*[@id="deliveryCollectionForm:AddLoggedInUserDeliveryAddressWidgetAction_postCode_decorate:AddLoggedInUserDeliveryAddressWidgetAction_postCode"]
+  RS.GETCITYRETURN: //*[@id="deliveryCollectionForm:AddLoggedInUserDeliveryAddressWidgetAction_addressLineThree_decorate:AddLoggedInUserDeliveryAddressWidgetAction_addressLineThree"]
+  RS.GETCOMPANYNAMERETURN: //*[@id="deliveryCollectionForm:AddLoggedInUserDeliveryAddressWidgetAction_companyNameOne_decorate:AddLoggedInUserDeliveryAddressWidgetAction_companyNameOne"]
+  RS.GETSTREETNAMERETURN: //*[@id="deliveryCollectionForm:AddLoggedInUserDeliveryAddressWidgetAction_addressLineOne_decorate:AddLoggedInUserDeliveryAddressWidgetAction_addressLineOne"]

@@ -1,0 +1,44 @@
+########################################################################
+# Default settings
+########################################################################
+default:
+
+ browser-name: chrome
+ #browser-name: sauce
+ platform : 'Windows 8.1'
+ dailymail: 'https://www.dailymail.co.uk/home/index.html'
+ 
+########################################################################  
+# Browser settings
+########################################################################
+chrome: &chrome
+ browser-name: chrome
+ 
+ie: &ie
+ browser-name: ie
+ 
+firefox: &firefox
+ browser-name: firefox
+  
+########################################################################
+# Test Envoronment settings
+########################################################################
+st: &st
+
+ remoteHubURL: 'http://ondemand.saucelabs.com:80'
+ 
+ 
+########################################################################  
+# Profile settings
+########################################################################
+dev-st-chrome:
+ <<: *st
+ <<: *chrome 
+ 
+dev-st-ie:
+ <<: *st
+ <<: *ie 
+ 
+dev-st-firefox:
+ <<: *st
+ <<: *firefox 
